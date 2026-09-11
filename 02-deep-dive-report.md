@@ -5,7 +5,7 @@
 ## 3.1. Current-State Workflow
 Quy trình xử lý phản hồi/khiếu nại của cư dân trên hệ thống CRM Vinhomes hiện tại:
 
-"""
+'''
 ┌──────────────┐     ┌──────────────┐     ┌──────────────┐     ┌──────────────┐
 │ Bước 1       │     │ Bước 2       │     │ Bước 3       │     │ Bước 4       │
 │ Nhận ticket  │     │ Đọc hiểu &   │     │ Gán nhãn &   │     │ Soạn phản hồi│
@@ -26,7 +26,7 @@ Quy trình xử lý phản hồi/khiếu nại của cư dân trên hệ thống
                                                                │ ⏱ <1 phút    │
                                                                └──────────────┘
                                                             
-"""
+'''
 🔴 = Bottlenecks
 ⏱ Tổng thời gian xử lý thủ công: ~5-6 phút/lượt.
 ## 3.2. Problem Statement (6-field) & Metrics (15 min)
@@ -46,7 +46,7 @@ Quy trình xử lý phản hồi/khiếu nại của cư dân trên hệ thống
 
 ## 3.3. Future-State Flow & AI Fit (25 min)
 * **Xác định mức AI Fit (AI-Fit Matrix):** Giải pháp thuộc nhóm nào? [ ] Rule / State-Machine [x] LLM Feature [ ] Agentic Loop.
-"""
+'''
 ┌──────────────┐     ┌──────────────┐     ┌──────────────┐     ┌──────────────┐
 │ Bước 1       │     │ Bước 2       │     │ Bước 3       │     │ Bước 4       │
 │ Nhận ticket  │     │ 🔵 AI đọc,   │     │ 🔵 AI route &│     │ 🟢 CSKH đọc  │
@@ -63,7 +63,7 @@ Quy trình xử lý phản hồi/khiếu nại của cư dân trên hệ thống
                         vào hàng đợi ưu tiên cho 
                         Quản lý CSKH tự xử lý.
 
-"""
+'''
 
 
 # 🏁 Phase 5 — EVALUATE (Nhóm, 20 min)
